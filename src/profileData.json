@@ -1,0 +1,53 @@
+{
+    "banner": {
+        "firstName": "Sophie",
+        "lastName": "McGarity",
+        "bio": "Info about me............",
+        "email": "sophiemcgarity7@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/sophie-mcgarity-0866ba181/",
+        "github": "https://github.com/sophiemcgarity"
+    },
+
+    "education" : [
+        {
+            "school": "Launch School",
+            "location": "Remote",
+            "degree": "Software Engineering",
+            "dates": "Mar 2020 - Ongoing"
+        },
+        {
+            "school": "NuCamp Coding Boot Camp",
+            "location": "Bellevue, WA",
+            "degree": "Full Stack Web and Mobile Development",
+            "dates": "Oct 2019 - Feb 2020"
+        },
+        {
+            "school": "De Montfort University",
+            "location": "Leicester, UK",
+            "degree": "Bachelor of Science: Media Production",
+            "dates": "Sept 2016 - July 2019"
+        }
+    ],
+    "social" : {
+        "linkedin": "https://www.linkedin.com/in/sophie-mcgarity-0866ba181/",
+        "github": "https://github.com/sophiemcgarity"
+    },
+    "projects" : [
+        {
+          "project": "To-do List Tracker",
+          "description": "Tracker allows for creation of independent lists, editing functionality, persistent data through sessions.",
+          "link": "https://todo-tracker-with-sinatra.herokuapp.com/lists"
+        },
+        {
+            "project": "Twenty-One Card Game",
+            "description": "Created a command line playable version of the card game twenty-one using Ruby. Incorporated classes to initialize cards and their values to produce a running total providing users the choice to “hit” or “stay” based on their current value.",
+            "link": "https://gist.github.com/sophiemcgarity/287178d1ef1810200950f08be8af318a"
+        },
+        {
+            "project": "Space Shooter",
+            "description": "Game play programing tutorial in Unity and C#. Implemented player boundaries, power-ups, and enemy spawn rates and locations.",
+            "link": "https://github.com/sophiemcgarity/SpaceShooter"
+        }
+    ]
+
+}
