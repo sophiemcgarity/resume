@@ -34,6 +34,11 @@
     },
     "projects" : [
         {
+          "project": "Worksheet Creator (On going personal project)",
+          "description": "Created a free fill in the blank worksheet teaching aid, inspired by the current work from home climate. The user can define multiple words to redact from a text passage. Each worksheet is stored on a home page. Attained browser persistent data through use of sessions.",
+          "link": "https://enigmatic-atoll-59705.herokuapp.com/worksheets"
+        },
+        {
           "project": "To-do List Tracker",
           "description": "Tracker allows for creation of independent lists, editing functionality, persistent data through sessions.",
           "link": "https://todo-tracker-with-sinatra.herokuapp.com/lists"
