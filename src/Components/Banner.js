@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import city from '../Assets/Image/city.jpg'
-import snow from '../Assets/Image/snow.jpg'
-import forest from '../Assets/Image/forest.jpg'
-import ferry from '../Assets/Image/ferry.jpg'
+import city from '../Assets/Image/city-min.jpg'
+import snow from '../Assets/Image/snow-min.jpg'
+import forest from '../Assets/Image/forest-min.jpg'
+import ferry from '../Assets/Image/ferry-min.jpg'
 import profilePhoto from '../Assets/Image/mcgarity_s.jpg'
 
 class Banner extends Component {
