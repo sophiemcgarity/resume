@@ -38,7 +38,7 @@ class Banner extends Component {
                         <h2>{this.props.bannerData.firstName} {this.bannerData.lastName}</h2>
                         <p>USA Permanent Resident (Green Card Holder)</p>
                         <p>{this.bannerData.email}</p>
-                        <button><a href="https://media-exp1.licdn.com/dms/document/C562DAQHFK3REtrWxEA/profile-treasury-document-pdf-analyzed/0/1614629560921?e=1614718800&v=beta&t=6ByxVxkVyPA_dRY4G9V_ryjqkdb-5LapOVngoyfbUSI" target="_blank">Resume</a></button>
+                        <button>Ready to work!</button>
                         <p>Software Engineer Student</p>
                     </div>
 
