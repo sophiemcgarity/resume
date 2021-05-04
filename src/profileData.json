@@ -13,11 +13,13 @@
             "school": "Launch School",
             "location": "Remote",
             "degree": "Software Engineering",
+            "github": "https://github.com/sophiemcgarity/Launch-School-Programming-and-Back-end-Development",
             "dates": "Mar 2020 - Ongoing"
         },
         {
             "school": "NuCamp Coding Boot Camp",
             "location": "Bellevue, WA",
+            "github": "https://github.com/sophiemcgarity/nucamp-react",
             "degree": "Full Stack Web and Mobile Development",
             "dates": "Oct 2019 - Feb 2020"
         },
@@ -30,18 +32,19 @@
     ],
     "social" : {
         "linkedin": "https://www.linkedin.com/in/sophie-mcgarity-0866ba181/",
-        "github": "https://github.com/sophiemcgarity"
+        "github": "https://github.com/sophiemcgarity",
+        "hackerRank": "https://www.hackerrank.com/sophiemcgarity"
     },
     "projects" : [
         {
           "project": "Worksheet Creator (On going personal project)",
-          "description": "Created a free fill in the blank worksheet teaching aid, inspired by the current work from home climate. The user can define multiple words to redact from a text passage. Each worksheet is stored on a home page. Attained browser persistent data through use of sessions.",
+          "description": "Developing a “fill in the blank” worksheet with the goal of developing a teaching aid for language learning. Users input a block of text and select words to be removed. Data persistence implemented through DatabasePersistence class utilizing PostgreSQL. Worksheet editing and deleting functionality achieved though SQL statements to update database.",
           "link": "https://enigmatic-atoll-59705.herokuapp.com/worksheets"
         },
         {
-          "project": "To-do List Tracker",
-          "description": "Tracker allows for creation of independent lists, editing functionality, persistent data through sessions.",
-          "link": "https://todo-tracker-with-sinatra.herokuapp.com/lists"
+          "project": "Portfolio (You are Here!)",
+          "description": "Designed a portfolio website in React to host personal projects with design inspiration taken from a popular fitness tracker app. Organized content into a JSON file, stored as application state, to map content iteratively to populate content.",
+          "link": "https://github.com/sophiemcgarity/resume"
         },
         {
             "project": "Twenty-One Card Game",

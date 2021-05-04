@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faReact, faHtml5, faCss3Alt, faGit, faJs, faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons';
+import { faReact, faHtml5, faCss3Alt, faGit, faJs, faGithub, faLinkedin, faHackerrank} from '@fortawesome/free-brands-svg-icons';
 import { faGem } from '@fortawesome/free-solid-svg-icons'
 
 class Skills extends Component {
@@ -80,9 +80,19 @@ class Skills extends Component {
                                 <div className="education" key={index}>
                                     <h4>{edu.school}</h4>
                                     <p>
-                                        {edu.degree}<br />
-                                        {edu.location}<br />
-                                        {edu.dates}<br />
+                                        {edu.degree}
+                                    </p>
+                                    <p>
+                                        {
+                                          edu.github && 
+                                          <a href={edu.github}>Github Repo</a>
+                                        }
+                                    </p>
+                                    <p>
+                                        {edu.location}
+                                    </p>
+                                    <p>
+                                        {edu.dates}
                                     </p>
                                 </div>
                             ))
@@ -96,6 +106,9 @@ class Skills extends Component {
                             </a>
                             <a href={this.socialData.github}>
                                 <FontAwesomeIcon icon={faGithub} />
+                            </a>
+                            <a href={this.socialData.hackerRank}>
+                                <FontAwesomeIcon icon={faHackerrank} />
                             </a>
                         </div>
                     </div>

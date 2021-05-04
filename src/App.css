@@ -300,6 +300,10 @@ li {
   margin: 0;
 }
 
+.education p {
+  line-height: 0.6rem;
+}
+
 .sidebar {
   margin-top: 3.8%;
   border-top: 1px solid #dfdfe8;
